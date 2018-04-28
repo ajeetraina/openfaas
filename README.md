@@ -22,3 +22,31 @@ git clone https://github.com/openfaas/faas
 cd faas
 ./deploy_stack.sh
 ```
+
+## Installing faas-cli
+
+```
+curl -sL cli.openfaas.com | sh
+```
+
+```
+$ faas-cli list
+Function                        Invocations     Replicas
+func_wordcount                  0               1func_hubstats                   0               1
+func_base64                     0               1func_echoit                     0               1
+func_markdown                   0               1tcpdump                         8               1
+func_nodeinfo                   1               1[manager1] (local) root@192.168.0.151 ~
+$
+```
+
+## Converting CLI to Function
+
+```
+mkdir func
+cd func
+faas new --lang dockerfile tcpdump
+```
+
+```
+faas build -f tcpdump.yml && faas deploy -f tcpdump.yml
+```
