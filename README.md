@@ -1,4 +1,4 @@
-# Setting up OpenFaas 
+# Getting Started with OpenFaas
 
 ## Environment Tested
 
