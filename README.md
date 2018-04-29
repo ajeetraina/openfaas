@@ -1,16 +1,17 @@
 # Getting Started with OpenFaas
 
-## Environment Tested
+## Preparing Your Environment
 
-- Play with Docker with Swarm Cluster Setup
-- Docker for Mac 18.05.0 RC1
+- Open https://labs.play-with-docker.com/
+- Click on login & start
+- Click on tool near the setting on the left side of PWD interface
 
-## Clone this repository
+![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD1-1536x768.png)
 
+- Choose 3 Managers and 2 workers and allow it to bring up 5 node cluster
 
-```
-https://github.com/ajeetraina/openfaas
-```
+![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD2.png)
+
 
 ## Bringing Up the Visualizer
 
@@ -28,6 +29,10 @@ p 55 seconds       0.0.0.0:8085->8080/tcp   visualizer_visualizer_1
 ```
 
 As shown, it is running on port 8085. Open up browser to see the fancy visualizer tool.
+
+![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD4.png)<br>
+
+![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD5.png)
 
 ## Cloning the OpenFaas Repository:
 
