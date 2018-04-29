@@ -16,6 +16,7 @@
 ## Bringing Up the Visualizer
 
 ```
+git clone https://github.com/ajeetraina/openfaas
 cd openfaas/visualizer/
 docker-compose up -d
 ```
