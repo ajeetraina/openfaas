@@ -55,4 +55,4 @@ func_nodeinfo                   1               1[manager1] (local) root@192.168
 $
 ```
 
-Next: [Building Retweet Serverless Function using OpenFaas](https://github.com/ajeetraina/openfaas/tree/master/functions/retweet-bot)
+Next: [Building Retweet Serverless Function using OpenFaas](https://github.com/ajeetraina/openfaas/tree/master/functions/retweet-bot/README.md)
