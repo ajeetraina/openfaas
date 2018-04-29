@@ -28,8 +28,10 @@ Folder: retweet created.
 Function created in folder: retweet
 Stack file written: retweet.yml
 root@ubuntu18:~/retweet#
+```
 
 This creates 3 major files, 2 of them under retweet and 1 YAML file as shown:
+
 ```
 retweet# tree
 .
@@ -39,6 +41,10 @@ retweet# tree
 0 directories, 2 files
 
 ```
+
+## Copy the files from retweet-bot to the right place
+
+
 
 ```
 root@ubuntu18:~/retweet# cat retweet.yml
