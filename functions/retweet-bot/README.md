@@ -42,10 +42,10 @@ retweet# tree
 
 ```
 
-## Copy the files from retweet-bot to the right place
+Replace handler.py, requirements.txt with these above files and add config from the repository under the same location.
 
 
-
+## Displaying contents of retweet.yml
 ```
 root@ubuntu18:~/retweet# cat retweet.yml
 provider:
@@ -63,6 +63,7 @@ functions:
 ## Building the Function
 
 ```
+cd ..
 faas-cli build -f ./retweet.yml
 ```
 
@@ -83,5 +84,7 @@ Deploying: retweet.
 Deployed. 200 OK.
 URL: http://127.0.0.1:8080/function/retweet
 ```
-## 
+Now open up localhost:8080/ui and watch out for brand new retweet function. Clik on Invoke and there you find retweet bot active to display you hashtags.
+
+Next: [Turn any CLI to function]
 
