@@ -1,19 +1,32 @@
-# openfaas
+# Setting up OpenFaas 
+
+## Pre-requisite:
+
+- Play with Docker
+
+## Clone this repository
+
 
 ```
 https://github.com/ajeetraina/openfaas
 ```
+
+## Bringing Up the Visualizer
 
 ```
 cd openfaas/visualizer/
 docker-compose up -d
 ```
 
+## Verifying the port the visualizer is running on
+
 ```
 $ docker ps
 CONTAINER ID        IMAGE                             COMMAND             CREATED             STATUS              PORTS                    NAMES05b89b6b8aa9        dockersamples/visualizer:stable   "npm start"         56 seconds ago      U
 p 55 seconds       0.0.0.0:8085->8080/tcp   visualizer_visualizer_1
 ```
+
+As shown, it is running on port 8085.
 
 ## Cloning the OpenFaas Repository:
 
@@ -39,14 +52,8 @@ func_nodeinfo                   1               1[manager1] (local) root@192.168
 $
 ```
 
-## Converting CLI to Function
+## Test Driving Retweet function
 
 ```
-mkdir func
-cd func
-faas new --lang dockerfile tcpdump
-```
-
-```
-faas build -f tcpdump.yml && faas deploy -f tcpdump.yml
-```
+cd 
+cd faas/functions
