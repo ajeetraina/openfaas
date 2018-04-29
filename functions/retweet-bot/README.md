@@ -44,6 +44,20 @@ retweet# tree
 
 Replace handler.py, requirements.txt with these above files and add config from the repository under the same location.
 
+Under config file, you need to enter the below entries. You can get the below keys and tokens via https://apps.twitter.com/
+
+```
+search_query: #collabnix
+# Leave empty for all languages
+tweet_language:
+number_of_rt: 5
+
+consumer_key: <Enter here>
+consumer_secret: <Enter here>
+access_token: <Enter here>
+access_token_secret: <Enter here>
+```
+
 
 ## Displaying contents of retweet.yml
 ```
