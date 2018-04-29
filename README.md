@@ -52,8 +52,4 @@ func_nodeinfo                   1               1[manager1] (local) root@192.168
 $
 ```
 
-## Test Driving Retweet function
 
-```
-cd 
-cd faas/functions
