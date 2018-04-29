@@ -2,7 +2,7 @@
 
 ## Environment Tested
 
-- Play with Docker
+- Play with Docker with Swarm Cluster Setup
 - Docker for Mac 18.05.0 RC1
 
 ## Clone this repository
