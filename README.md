@@ -32,7 +32,7 @@ As shown, it is running on port 8085. Open up browser to see the fancy visualize
 
 ![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD4.png)<br>
 
-![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD5.png)
+
 
 ## Cloning the OpenFaas Repository:
 
@@ -43,6 +43,8 @@ cd faas
 ```
 
 This will setup OpenFaas Stack
+
+![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD5.png)
 
 ## Installing faas-cli
 
