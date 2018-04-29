@@ -1,8 +1,9 @@
 # Setting up OpenFaas 
 
-## Pre-requisite:
+## Environment Tested
 
 - Play with Docker
+- Docker for Mac 18.05.0 RC1
 
 ## Clone this repository
 
@@ -26,7 +27,7 @@ CONTAINER ID        IMAGE                             COMMAND             CREATE
 p 55 seconds       0.0.0.0:8085->8080/tcp   visualizer_visualizer_1
 ```
 
-As shown, it is running on port 8085.
+As shown, it is running on port 8085. Open up browser to see the fancy visualizer tool.
 
 ## Cloning the OpenFaas Repository:
 
@@ -35,6 +36,8 @@ git clone https://github.com/openfaas/faas
 cd faas
 ./deploy_stack.sh
 ```
+
+This will setup OpenFaas Stack
 
 ## Installing faas-cli
 
