@@ -1,0 +1,12 @@
+[settings]
+search_query: "#collabnix"
+# Leave empty for all languages
+tweet_language: en
+number_of_rt: 4
+
+# Create your app on http://apps.twitter.com
+[twitter]
+consumer_key: 
+consumer_secret: 
+access_token: 
+access_token_secret: 
