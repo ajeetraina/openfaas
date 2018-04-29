@@ -63,6 +63,8 @@ $
 ```
 ![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD7.png)<br>
 
+OpenFaas by default comes with few already baked in functions like as shown below:
+
 ![My image](http://collabnix.com/wp-content/uploads/2018/04/PWD8.png)
 
 Next: [Building Retweet Serverless Function using OpenFaas](https://github.com/ajeetraina/openfaas/tree/master/functions/retweet-bot/README.md)
