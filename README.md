@@ -1,4 +1,4 @@
-# Getting Started with OpenFaas
+# OpenFaas Project Quickstart
 
 ## Preparing Your Environment
 
